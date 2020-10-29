@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!28 &-3329759470723948828
+--- !u!28 &-7439878094198126448
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,8 +56,8 @@ MonoBehaviour:
   material: {fileID: 1113559581183453729}
   materialHashCode: 1274381848
   m_Version: 1.1.0
-  m_SourceFontFileGUID: 1f929dba561c99445ad989ce6dcd5b74
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 1f929dba561c99445ad989ce6dcd5b74,
+  m_SourceFontFileGUID: 63f794297d797a0439057334686b8457
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 63f794297d797a0439057334686b8457,
     type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
@@ -1812,7 +1812,7 @@ MonoBehaviour:
     m_GlyphIndex: 239
     m_Scale: 1
   m_AtlasTextures:
-  - {fileID: -3329759470723948828}
+  - {fileID: -7439878094198126448}
   m_AtlasTextureIndex: 0
   m_UsedGlyphRects:
   - m_X: 0
@@ -2488,7 +2488,7 @@ MonoBehaviour:
   m_FallbackFontAssetTable: []
   m_CreationSettings:
     sourceFontFileName: 
-    sourceFontFileGUID: 1f929dba561c99445ad989ce6dcd5b74
+    sourceFontFileGUID: 63f794297d797a0439057334686b8457
     pointSizeSamplingMode: 0
     pointSize: 125
     padding: 14
@@ -2497,7 +2497,7 @@ MonoBehaviour:
     atlasHeight: 1024
     characterSetSelectionMode: 0
     characterSequence: 32 - 126, 160, 8203, 8230, 9633
-    referencedFontAssetGUID: 1212d9ede5e6cb644b5eee05c8426d52
+    referencedFontAssetGUID: 88a3a94043e02bd47a09c96bd8b32886
     referencedTextAssetGUID: 
     fontStyle: 0
     fontStyleModifier: 0
@@ -2539,7 +2539,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Metropolis-Black SDF Material
-  m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9f3514ad28ef41449922a53e50f0fc47, type: 3}
   m_ShaderKeywords: OUTLINE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -2563,7 +2563,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: -3329759470723948828}
+        m_Texture: {fileID: -7439878094198126448}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -2597,10 +2597,11 @@ Material:
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
     - _OutlineWidth: 0.25
+    - _Padding: 0
     - _PerspectiveFilter: 0.729
     - _Reflectivity: 10
     - _ScaleRatioA: 0.93333334
-    - _ScaleRatioB: 0.7222222
+    - _ScaleRatioB: 0.7583333
     - _ScaleRatioC: 0.7583333
     - _ScaleX: 1
     - _ScaleY: 1
